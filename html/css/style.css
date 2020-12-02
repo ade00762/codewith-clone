@@ -1,0 +1,408 @@
+
+.face{
+    font-size:3rem
+}
+/**adding color and background  with external 
+**/
+.bg-dark {
+    background: #0000c1
+}
+.white-text{
+    color : #fff
+}
+#font-1{
+    color: 00ff00
+}
+#font-2{
+    color: ffffff
+}
+#font-3{
+    color: 00ff00
+}
+.bg-color{
+    background: #000047
+}
+.footer{
+    background: #000000
+}
+.font-1{
+    color: #00ff00
+}
+.font-1{
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font-1::first-line{
+    font-size: 35px
+}
+.format-letter{
+    text-decoration: overline;
+    text-transform: uppercase;
+    line-height: 1.6;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+#format-with-line{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.size{
+    width: 100vw;
+    height: 100vh;
+    background: #000000
+}
+.box-md{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00ff00;
+    border-radius: 5px;
+    /* width: 50%; */
+}
+.border-red{
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #f00;
+    border-radius: 5px;
+}
+.padding{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 4px;
+    padding: 3px
+}
+.heading{
+    border: 2px double #0000c1;
+    border-radius: 5px;
+}
+.heading{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.bg-box-model{
+    background: #000000;
+}
+/* bg colorsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+.bg-red{
+    background:#f00;
+}
+.bg-5{
+    background: #000000
+}
+.bg-grey{
+    background: grey
+}
+.bg-purple{
+    background: #b600bb
+}
+.bg-cyan{
+    background: #00ffff
+}
+.bg-silver{
+    background: #c0c0c0
+}
+.bg-teal{
+    background: #000080
+}
+.bg-crimson{
+    background: #dc143c
+}
+.bg-dark-orange{
+    background: #ffd700
+}
+.bg-khaki{
+    background: #bdb76b
+}
+.bg-forest-greeen{
+    background: #228b22
+}
+.bg-turquoise{
+    background: #40e0d0
+}
+.teal-text{
+    color:#000080 
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+.pad-5{
+    padding: 10px 20px;
+}
+.radius-5{
+    border-radius: 10px
+}
+.no-boder{
+    border: none
+}
+.pad-link{
+    padding: 10px 0px;
+}
+.pad-section{
+    padding: 10px;
+    padding-top: 0;
+}
+.no-margin{
+    margin-bottom: 0!important;
+}
+.pad-left{
+    padding-left: 10px
+}
+.pad-bottom{
+    padding-bottom :10px
+}
+.width50{
+    width: 30%
+}
+.border-bottom-radius{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.border-top-radius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.center-text{
+    text-align: center
+}
+.right-text{
+    text-align: right
+}
+.left-text{
+    text-align: left
+}
+.relative{
+    position: relative
+}
+.move-right{
+    left:-10px
+}
+.move-left{
+    right:6em
+}
+.move-up{
+    bottom:10px
+}
+.move-down{
+    top: 10px
+}
+.absolute{
+    position: absolute
+}
+.top{
+    top: 0
+}
+.right{
+    right: 5px
+}
+.left{
+    left: 5px
+}
+.bottom{
+    bottom: 0
+}
+.w100{
+    width: 100%
+}
+.height{
+    height: 100vw;
+}
+.fixed-top{
+    position: fixed
+}
+.navigation{
+    width: 100%;
+    background: #696969;
+    padding: 10px 20px;
+}
+.navigation a{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: #fff;
+    z-index: 66;
+}
+.high-z-index{
+    z-index: 66;
+}
+.frame{
+    display: flex
+}
+.fr-1{
+    width: 8.33333%;
+    max-width: 8.33333%;
+    flex:0 0 8.33333;
+}
+.fr-2{
+    width: 16.66666%;
+    max-width: 16.66666%;
+    flex:0 0 16.66666;
+}
+.fr-3{
+   width: 24.99999%;
+    max-width: 24.99999%;
+    flex:0 0 24.99999;
+}
+.fr-4{
+    width: 33.33332%;
+    max-width: 33.33332%;
+    flex:0 0 33.33332;
+}
+.fr-5{
+    width: 41.66665%;
+    max-width: 41.66665%;
+    flex:0 0 41.66665;
+}
+.fr-6{
+    width: 49.99998%;
+    max-width: 49.99998%;
+    flex:0 0 49.99998;
+}
+.fr-7{
+    width: 58.33331%;
+    max-width: 58.33331%;
+    flex:0 0 58.33331;
+}
+.fr-8{
+    width: 66.66664%;
+    max-width: 66.66664%;
+    flex:0 0 66.66664;
+}
+.fr-9{
+    width: 74.99997%;
+    max-width: 74.99997%;
+    flex:0 0 74.99997;
+}
+.fr-10{
+    width: 83.333%;
+    max-width: 83.333%;
+    flex:0 0 83.333;
+}
+.fr-11{
+    width: 91.6663%;
+    max-width: 91.6663%;
+    flex:0 0 91.6663;
+}
+.fr-12{
+    width: 99.9996%;
+    max-width: 99.9996%;
+    flex:0 0 99.9996;
+}
+/*
+.fr-3way-split-1{
+    width: 33.3333%;
+    max-width: 33.3333%;
+    flex: 0 0 33.3333;
+}
+.fr-3way-split-2{
+    width: 66.6666%;
+    max-width: 66.6666%;
+    flex: 0 0 66.6666;
+}
+.fr-3way-split-3{
+    width: 99.9999%;
+    max-width: 99.9999%;
+    flex: 0 0 99.9999;
+}
+*/
+.fr-3way-split-1{
+    width: 33.3333%;
+}
+.fr-3way-split-2{
+    width: 66.6666%;
+}
+.fr-3way-split-3{
+    width: 99.9999%;
+}
+.large-font{
+    font-size: 2.5rem
+}
+.logo-font{
+    font-size: 32px
+}
+.header-margin-top{
+    margin-top: -3rem
+}
+.nav-margin-top{
+    margin-top: -3rem
+}
+.nav-margin-right{
+    margin-right: 3rem
+}
+.h1-margin-left{
+    margin-left: 1.5rem
+}
+.img-1{
+    width: 100%;
+    height: 34rem
+}
+.font-in-img{
+    font-size: 1.4em;
+    text-decoration-style: solid;
+    letter-spacing: .1em;
+}
+.larger-font-in-img{
+    font-size: 2.5em;
+    word-spacing: .5px;
+    letter-spacing: 1px;
+    word-spacing: .5px;
+    letter-spacing: 1px;   
+}
+.img-text-margin-top{
+    margin-top: 10px;
+}
+.button-padding{
+    padding: 7px 12px
+}
+.text-img-move-up{
+    margin-top:-18em;
+}
+.margin-down{
+    margin-top: 12em
+}
+.white-border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+.button-move-right{
+    margin-left: 5px
+}
+.button-move-left{
+    margin-right: 5px
+}
+.dont-move-up{
+    margin: none!important
+}
+#line-1{
+    width: 7.5%;
+    border-style: solid
+}
+#line-2{
+    width: 7%;
+    border-style: solid;
+    margin-top: -2em
+}
+.two-em-font-size{
+    font-size: 2em
+}
+.img-2{
+    width: 47%;
+    height: 14em
+}
+.padding-left-20{
+    padding-left: 20px
+}
+.padding-50-left{
+    padding-left: 50%
+}
+.padding-right-5{
+    padding-right: 50px
+}
+.text-2-move-up{
+    margin-top: -15.5em
+}
