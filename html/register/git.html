@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~
+    $ cd desktop
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop
+    $ cd ace-git-training
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training
+    $ git init
+    Initialized empty Git repository in C:/Users/ADEKUNLE/Desktop/ace-git-training/.git/
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git config user.name "Adekunle"
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git config user.email "coolsuny00762@gmail.com"
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    
+    No commits yet
+    
+    nothing to commit (create/copy files and use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    
+    No commits yet
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            Blog/
+            bitcoin/
+            codewit/
+            html/
+            java script/
+            logotop.svg
+            paystackBlog/
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    
+    No commits yet
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            bitcoin.css
+            bitcoin.html
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git bitcoin.css
+    git: 'bitcoin.css' is not a git command. See 'git --help'.
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git add bitcoin.css
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    
+    No commits yet
+    
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+    
+            new file:   bitcoin.css
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            bitcoin.html
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git commit-m "i have worked on bitcoin page"
+    git: 'commit-m' is not a git command. See 'git --help'.
+    
+    The most similar command is
+            commit-tree
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    
+    No commits yet
+    
+    Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+    
+            new file:   bitcoin.css
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            bitcoin.html
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git commit -m "i have worked on bitcoin page"
+    [master (root-commit) 6104293] i have worked on bitcoin page
+     1 file changed, 453 insertions(+)
+     create mode 100644 bitcoin.css
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ ^C
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ ^C
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git log
+    commit 6104293254f4d5841f7bdcd8e0cfb499aef909ae (HEAD -> master)
+    Author: Adekunle <coolsuny00762@gmail.com>
+    Date:   Tue Dec 1 18:47:35 2020 +0100
+    
+        i have worked on bitcoin page
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git branch v1.0.0
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    Switched to branch 'v1.0.0'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git status
+    On branch v1.0.0
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            bitcoin.html
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git add bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git status
+    On branch v1.0.0
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            new file:   bitcoin.html
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout master
+    Switched to branch 'master'
+    A       bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    Switched to branch 'v1.0.0'
+    A       bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git commit -m "i have just editted my file"
+    [v1.0.0 3d797ca] i have just editted my file
+     1 file changed, 37 insertions(+)
+     create mode 100644 bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout master
+    Switched to branch 'master'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    error: The following untracked working tree files would be overwritten by checkout:
+            bitcoin.html
+    Please move or remove them before you switch branches.
+    Aborting
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    error: The following untracked working tree files would be overwritten by checkout:
+            bitcoin.html
+    Please move or remove them before you switch branches.
+    Aborting
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            bitcoin.html
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    error: The following untracked working tree files would be overwritten by checkout:
+            bitcoin.html
+    Please move or remove them before you switch branches.
+    Aborting
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    error: The following untracked working tree files would be overwritten by checkout:
+            bitcoin.html
+    Please move or remove them before you switch branches.
+    Aborting
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git add bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            new file:   bitcoin.html
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git commit -m "new file"
+    [master db23f63] new file
+     1 file changed, 37 insertions(+)
+     create mode 100644 bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git status
+    On branch master
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    Switched to branch 'v1.0.0'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git status
+    On branch v1.0.0
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   bitcoin.html
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    no changes added to commit (use "git add" and/or "git commit -a")
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout v1.0.0
+    Already on 'v1.0.0'
+    M       bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout master
+    Switched to branch 'master'
+    M       bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    Switched to branch 'v1.0.0'
+    M       bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git add bitcoin.html
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git commit -m "new file"
+    [v1.0.0 5b61db3] new file
+     1 file changed, 1 insertion(+)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git status
+    On branch v1.0.0
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout master
+    Switched to branch 'master'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (master)
+    $ git checkout v1.0.0
+    Switched to branch 'v1.0.0'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v1.0.0)
+    $ git checkout -b v2.0.0
+    Switched to a new branch 'v2.0.0'
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git status
+    On branch v2.0.0
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+            blog.html
+            new.css
+            oct31..html
+            oct31.css
+            sahara.css
+            sahara.html
+    
+    nothing added to commit but untracked files present (use "git add" to track)
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git add .
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git status
+    On branch v2.0.0
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            new file:   blog.css
+            new file:   blog.html
+            new file:   new.css
+            new file:   oct31..html
+            new file:   oct31.css
+            new file:   sahara.css
+            new file:   sahara.html
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git reset HEAD "file 2"
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git reset HEAD blog.css
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git status
+    On branch v2.0.0
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            new file:   blog.html
+            new file:   new.css
+            new file:   oct31..html
+            new file:   oct31.css
+            new file:   sahara.css
+            new file:   sahara.html
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            blog.css
+    
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git add .
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ git add blog.css
+    
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $ cat sahara.html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SaharaReporter-News</title>
+        <link rel="stylesheet" href="CSS/sahara.css">
+        <link rel="stylesheet" href="Assets/font awesome/css/fontawesome.css">
+    
+    
+    </head>
+    <body class="framer-100 frame">
+        <header >
+            <section gclass="frame">
+                <div class="bg-header frame w-100 relative">
+                    <div class="s-head absolute"></div>
+                </div>
+                    <div class=" nav-b nav-t-1 ">
+                    <div class="justify-content-between ">
+                        <div >
+                            <h1 class="logo1 " >SAHARA</h1>
+                            <h1 class="logo2 ">REPORTERS</h1>
+                            <div class="hr-line"></div>
+    
+                        </div>
+                        <div class="nav1 justify-content-betwee framen">
+                            <div class="nav-r framer">
+                                <a href=""> SUBMIT A STORY</a>
+                                <a href=""> LOGIN</a>
+                                <a href="#" class="">SIGNUP</a>
+                            </div>
+                            <div class=" nav-2 framer ">
+                                <div class="image-1" ><img  class="search" src="Assets/images/Search2.png" alt="search" width="30px"></div>
+                                <div><img class="wifi" src="Assets/images/wifi_PNG 1.png" alt="wifi" width="30px"></div>
+                                <div ><input type="search" placeholder="search" class="border-r" ></div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section >
+                    <div>
+                        <div class="s-line  "></div>
+                        <div class="facehead framer ">
+                            <div >
+                                <ul class="face">
+                                    <li class="news">news</li>
+                                    <li class="opinion">opinion</li>
+                                    <li class="nig">#nigeriadecides</li>
+                                    <li class="politics">politics</li>
+                                    <li class="health">health</li>
+                                    <li class="sports">sports</li>
+                                    <li class="topics">more topics</li>
+                                </ul>
+                            </div>
+                            <div >
+                                <ul class="face1 framer ">
+                                    <li class="video">video</li>
+                                    <li class="photos">photos</li>
+                                    <li class="doc">document</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </section>
+                <section class="framer">
+                    <div class="facebar framer"></div>
+                    <div class="sec2-a">
+                        <img class="sec2-gunmen" src="/Assets/images/Gunmen1.jpg"
+                        alt="Gunmen" width="50%">
+                        <img src="/Assets/images/sadiya-umar-farouk.jpg" alt="sadiya-umar-farouk" width="50%">
+                    </div>
+                </section>
+        </header> -->
+        <!-- <head>
+                <section class="m-b-3">
+                    <div class="">
+                        <div class=" framer ">
+                            <h1>working with images and card</h1>
+                        </div>
+    
+                        <div class="framer">
+                            <div class="frame">
+                                <div class="fr-4 bg-image relative">
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </section>
+                <!-- CARD -->
+    
+    
+                <section id="card m-b-3">
+                    <div class="framer">
+                        <div class="frame">
+                            <div class="fr-4 m-b-2">
+                                <div class="jara-card">
+                                    <div class="jara-card-image">
+                                        <img class="w-100"
+                                        src="Assets/images/Gunmen1.jpg" alt="">
+                                    </div>
+                                    <div class="jara-card-body">
+                                        <h2 class="jara-card-title">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                        </h2>
+                                        <p class="jara-card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Optio laboriosam dignissimos ipsam esse....
+    
+                                        </p>
+                                    </div>
+                                    <div class="jara-card-footer">
+                                        <div class=" frame justify-content-between">
+                                            <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                        </div>
+    
+                                    </div>
+                                    <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                        <span>0</span>
+                                        <i class="fa fa-share"></i>
+                                    </button>
+    
+                                </div>
+                            </div>
+                            <div class="fr-4 m-b-2">
+                                <div class="jara-card">
+                                    <div class="jara-card-image">
+                                        <img class="w-100"
+                                        src="Assets/images/footbal news.jpg" alt="">
+                                    </div>
+                                    <div class="jara-card-body">
+                                        <h2 class="jara-card-title">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                        </h2>
+                                        <p class="jara-card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Optio laboriosam dignissimos ipsam esse...
+    
+                                        </p>
+                                    </div >
+                                    <div class="jara-card-footer">
+                                        <div class=" frame justify-content-between">
+                                            <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                        </div>
+    
+                                    </div>
+                                    <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                        <span>0</span>
+                                        <i class="fa fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="fr-4 m-b-2">
+                                <div class="jara-card">
+                                    <div class="jara-card-image">
+                                        <img class="w-100"
+                                        src="Assets/images/breaking news.jpeg" alt="">
+                                    </div>
+                                    <div class="jara-card-body">
+                                        <h2 class="jara-card-title">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                        </h2>
+                                        <p class="jara-card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Optio laboriosam dignissimos ipsam esse....
+    
+                                        </p>
+                                    </div>
+                                    <div class="jara-card-footer">
+                                        <div class=" frame justify-content-between">
+                                            <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                            <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                        </div>
+    
+                                    </div>
+                                    <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                        <span>0</span>
+                                        <i class="fa fa-share"></i>
+                                    </button>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+    
+                    </div>
+                </section>
+    
+            </head>
+        <main class="bg-black pad-header m-t-1 ">
+            <section id="card  ">
+                <div class="framer">
+                    <div class="frame">
+                        <div class="fr-4 m-b-2">
+                            <div class="jara-card">
+                                <div class="jara-card-image">
+                                    <img class="w-100"
+                                    src="Assets/images/Gunmen1.jpg" alt="">
+                                </div>
+                                <div class="jara-card-body">
+                                    <h2 class="jara-card-title">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                    </h2>
+                                    <p class="jara-card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Optio laboriosam dignissimos ipsam esse....
+    
+                                    </p>
+                                </div>
+                                <div class="jara-card-footer">
+                                    <div class=" frame justify-content-between">
+                                        <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                    </div>
+    
+                                </div>
+                                <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                    <span>0</span>
+                                    <i class="fa fa-share"></i>
+                                </button>
+    
+                            </div>
+                        </div>
+                        <div class="fr-4 m-b-2">
+                            <div class="jara-card">
+                                <div class="jara-card-image">
+                                    <img class="w-100"
+                                    src="Assets/images/footbal news.jpg" alt="">
+                                </div>
+                                <div class="jara-card-body">
+                                    <h2 class="jara-card-title">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                    </h2>
+                                    <p class="jara-card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Optio laboriosam dignissimos ipsam esse...
+    
+                                    </p>
+                                </div >
+                                <div class="jara-card-footer">
+                                    <div class=" frame justify-content-between">
+                                        <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                    </div>
+    
+                                </div>
+                                <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                    <span>0</span>
+                                    <i class="fa fa-share"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="fr-4 m-b-2">
+                            <div class="jara-card">
+                                <div class="jara-card-image">
+                                    <img class="w-100"
+                                    src="Assets/images/breaking news.jpeg" alt="">
+                                </div>
+                                <div class="jara-card-body">
+                                    <h2 class="jara-card-title">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+                                    </h2>
+                                    <p class="jara-card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Optio laboriosam dignissimos ipsam esse....
+    
+                                    </p>
+                                </div>
+                                <div class="jara-card-footer">
+                                    <div class=" frame justify-content-between">
+                                        <a href="#"><i class="fa fa-eye"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-share"></i><span>30</span> </a>
+                                        <a href="#"><i class="fa fa-comment"></i><span>30</span> </a>
+                                    </div>
+    
+                                </div>
+                                <button class="button no-outline radius-5 no-barder white-text bg-orange share-count" >
+                                    <span>0</span>
+                                    <i class="fa fa-share"></i>
+                                </button>
+                            </div>
+    
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </main>
+        <footer class="">
+            <section>
+                <div class="bg-black m-t-2 pad-header">
+                    <div class="framer">
+                        <div class=" fr-4 logo2">
+                            <h1 class="logo-sec" >SAHARA</h1>
+                            <h1 class="logo-sec1">REPORTERS</h1>
+                            <div class="hr-line"></div>
+                        </div>
+                        <div class="fr-1 m-left-20 r-side " >
+                            <form  method="POST" class="">
+                            <input type="search"
+                            placeholder="search"
+                            class=" search-input no-barder no-outline bg-grey border-r pad-input" name="">
+                            </form>
+                        </div>
+    
+    
+                        <p class="fr-6 m-right-10 m-t-1 ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloribus aperiam dolore ipsa repellat ad id assumenda autem
+                            fugit culpa voluptatibus dolorem suscipit perspiciatis, dicta, eveniet blanditiis. Voluptas dolorum, eius ab ipsa culpa nihil
+                            inventore voluptates eveniet tempora asperiores sed magni dolore saepe porro doloremque. Iusto quo omnis qui deleniti,
+                            adipisci sequi voluptatibus a ut sit delectus, illo libero praesentium labore distinctio unde maxime optio dolor incidunt
+                            culpa deserunt numquam porro magni? Consectetur et inventore maiores, autem dicta, eos sed minus quasi quaerat, cum delectus?
+                            Obcaecati non sit assumenda illum, hic maiores ad vero! Hic non libero dolor sit earum.
+    
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+        </footer>
+    
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!-- </header> --> -->
+    
+          <!-- </section>
+          <nav class="frame justify-content-between border">
+              <section class="">
+                <div class="">
+                    <H1> SAHARA <br>
+                        REPORTERS</H1>
+                    </div >
+                    <div class="top-bar frame m-t-1 ">
+                        <div><img  class="search" src="Assets/images/Search2.png" alt="search" width="30px"></div>
+                        <div><img class="icon" src="Assets/images/FTIY logo 2.jpg" alt="icon" width="150px"></div>
+                        <div><img class="wifi" src="Assets/images/wifi_PNG 1.png" alt="wifi" width="30px"></div>
+                    </div>
+                    <div class="m-t-1 header-framer ">
+                            <a href="#">SUBMIT</a>
+                            <a href="#">LOGIN</a>
+                            <a href="#">SIGNUP</a>
+                     </div>
+                </div>
+    
+                    <section class="header-framer m-t-1 ">
+    
+                    </section>
+    
+                </section>
+                <!-- drop Down Part -->
+                <!-- <section class="w-100 m-b-2 m-t-1  ">
+                    <div class="framer">
+                        <div class=" frame justify-content-between sub-navigation">
+                            <div>
+                                <a href="#" class=" dark-text "></a>
+                                <a href="#" class="dark-text"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+    
+                                <section class=" is-dropdown relative">
+                                    <a href="#" style="margin-right: 0"> more topics</a>
+                                    <i class="fa fa-caret-down orange-text"> </i>
+                                    <div class="dropdown-content"></div>
+                                    <a href="">FIRST</a>
+                                    <a href="">FIRST</a>
+                                    <a href="">FIRST<F/a>
+                                    <a href="">RFIRST</a>
+    
+                                </section>
+    
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </section>
+            </nav> -->
+    
+      <main>
+          <!-- <div class="framer header-framer ">
+            <h2>Apologise For Hiding COVID-19 Palliatives From Citzens in Need,
+                Falana Tells Nigerian Government.
+            </h2>
+            <p>Falana Wwhile speaking in an interviews,equated the hoarding of
+                the relief materials with crimes against humanity.
+            </p>
+            <p>BY SAHARAREPORTERS,NEW YORK  OCT 26,2020</p>
+            <div class="border-line">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Email</a>
+                <a href="#">Share</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique labore obcaecati debitis laborum reiciendis ea ex doloribus,
+                dolorem, adipisci incidunt, eos rem voluptatem ab. Sunt suscipit fuga
+                ullam maiores error. Temporibus quasi repellat porro qui perspiciatis vero
+                dicta explicabo nemo nostrum ratione voluptatibus sed nobis, amet veritatis
+                sint facilis atque nihil! Debitis cumque pariatur atque commodi, sint minus
+                ab ducimus corrupti ad voluptas mollitia unde qui veniam blanditiis,
+                 fuga rerum aliquid harum perspiciatis quam! Dolore, impedit vel? Deserunt,
+                 similique natus perspiciatis eius tempore officia amet laborum magnam esse, praesentium accusantium dolor iste necessitatibus
+                 adipisci accusamus rerum tempora. Fuga, aut doloribus.</p>
+            <img src="Assets/images/sadiya-umar-farouk.jpg" alt="">
+            </div>
+             -->
+    
+      </main>
+    
+    </body>
+    </html>
+    ADEKUNLE@DESKTOP-KNNJ2P4 MINGW64 ~/desktop/ace-git-training (v2.0.0)
+    $
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ASSIGNMENT 
+    1. OPEN A FOLDER (NAME IT : GIT ASSIGNMENT)
+    2.CREATE - Another branch
+    3.in your master branch,
+create master.html,mater.css
+    4.in your new branch, - master.html
+    - master.css - Ace.html
+    -Ace.css-->
+    
+</body>
+</html>
